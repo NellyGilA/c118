@@ -2,7 +2,7 @@
 
 function  startClassification() {
   navigator.mediaDevices.getUserMedia({ audio: true});
-classifier = m15.soundClassifier("https://teachablemachine.withgoogle.com/models/f4plBIiAk/model.json", modelReady);
+classifier = ml5.soundClassifier("https://teachablemachine.withgoogle.com/models/f4plBIiAk/model.json", modelReady);
 
 
 }
